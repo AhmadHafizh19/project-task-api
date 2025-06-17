@@ -1,9 +1,11 @@
 package com.example.project_task_api.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class TaskResponseDto {
     private Long id;
 
